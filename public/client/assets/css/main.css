@@ -1,0 +1,612 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
+
+
+
+
+.container_my{
+    background-color: #f5f5f5;
+}
+
+.padding_X{
+    padding: 0 10%;
+}
+
+.margin_X{
+    margin: 0 10%;
+}
+
+.board_th{
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+    text-align: center;
+    padding: 5px;
+}
+
+.board_td{
+    color: black;
+    border: 1px solid #007bff;
+    padding: 5px;
+}
+
+.flex_center{
+    align-self: center;
+}
+
+.bra-10{
+    border-radius: 10px;
+}
+
+.bra-0{
+    border-radius: 0;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.box_shadow{
+    box-shadow: 0 0 4px 2px gray;
+}
+
+.text-end{
+    text-align: end;
+}
+
+
+.text-start{
+    text-align: start;
+}
+
+.image_book{
+    width: 75%;
+    transition: all .5s;
+}
+
+.image_book:hover{
+    width: 80%;
+}
+
+.image_course{
+    width: 95%;
+    transition: all .5s;
+}
+
+.image_course:hover{
+    width: 100%;
+}
+
+/* header */
+
+.box_header{
+
+    display: grid;
+
+    grid-template-columns: 1fr 3fr 2fr .5fr;
+
+}
+
+/* header */
+
+/* contact */
+
+.home_contact{
+    padding: 10px;
+    border-top: 7px solid #007bff;
+    border-left: 7px solid #007bff;
+    border-right: 7px solid #ffc107;
+    border-bottom: 7px solid #ffc107;
+    border-radius: 15px;
+}
+
+/* contact */
+
+/* home content */
+
+/* menu_banner_home */
+
+.menu_home{
+    height: auto;
+}
+
+.menu_banner{
+
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 10px;
+
+}
+
+.type_banner{
+    border-top: 3px solid #007bff;
+    border-left: 3px solid #007bff;
+    border-right: 3px solid #ffc107;
+    border-bottom: 3px solid #ffc107;
+    /* border: 2px solid #007bff; */
+}
+
+.contact_header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* menu_banner_home */
+
+/* book_hot */
+
+.book_hot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item_book_hot{
+    border: 1px solid black;
+    width: 24%;
+    padding: 10px;
+    border-top: 3px solid red;
+    border-left: 3px solid red;
+    border-right: 3px solid rgb(21, 200, 21);
+    border-bottom: 3px solid rgb(21, 200, 21);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.item_book_hot img{
+    width: 90%;
+    transition: all 0.5s;
+}
+
+.item_book_hot img:hover{
+    width: 100%;
+}
+
+/* book_hot */
+
+/* course_home */
+
+.course_home{
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    column-gap: 10px;
+    row-gap: 10px;
+
+
+}
+
+.item_course{
+    background-color: white;
+    padding: 10px;
+
+}
+
+.sub_item_course{
+    display: grid;
+    grid-template-areas: 
+    "name discount"
+    "start price";
+}
+
+.bg_light{
+    background-color: white;
+}
+
+/* course_home */
+
+
+/* evaluate_home */
+
+.item_evaluate{
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.user_evaluate{
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+
+.user_evaluate img{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* evaluate_home */
+
+/* blog_home */
+
+.box_blog_home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.item_blog{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    border-radius: 10px;
+    border: 2px solid #007bff;
+}
+
+
+/* blog_home */
+
+/* register tearch */
+
+.register_tc{
+
+    height: 300px;
+
+}
+
+/* register tearch */
+
+
+/* home content */
+
+
+/* detail_course */
+
+.detail_course{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 10px;
+}
+
+.ex_course{
+
+}
+
+.ex_course ul li{
+    list-style-type: none;
+}
+
+.ex_course ul{
+    display: none;  
+}
+
+/* .ex_course:hover ul{
+    display: block;
+    height: auto;
+} */
+
+.detail_course_content_right .course_kind{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+
+/* detail_course */
+
+/* profile */
+
+.box_profile{
+
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    column-gap: 10px;
+
+}
+
+.sidebar_profile{
+
+}
+
+.sidebar_nav li{
+    list-style-type: none;
+}
+
+
+/* profile */
+
+/* detail_exam */
+
+/* exam */
+
+.detail_exam{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+
+}
+
+.exam_time li{
+    list-style-type: none;
+
+}
+
+/* exam */
+
+/* kind_exam */
+
+.item_exam{
+    background-color: white;
+    padding: 10px;
+
+}
+
+.sub_item_exam{
+    display: grid;
+    grid-template-areas: 
+    "status_exam status_exam"
+    "exam_number exam_price";
+}
+
+.sub_item_exam small{
+    grid-area: status_exam;
+}
+
+.sub_item_exam p{
+    grid-area: exam_number;
+}
+
+.sub_item_exam span{
+    grid-area: exam_price;
+}
+
+
+/* kind_exam */
+
+/* detail_exam */
+
+
+/* make_exam */
+
+iframe{
+    width: 100%;
+    height: 500px;
+}
+
+.box_question{
+
+    padding: 10px;
+    border: 5px double #007bff;
+
+}
+
+.item_answer{
+
+    padding: 10px;
+    border: 1px solid #ffc107;
+    border-left: 0px;
+    border-right: 0px;
+    margin-bottom: 5px;
+
+}
+
+.box_information_exam{
+
+    margin: 0 0 20px;
+    border: 5px dashed #007bff;
+    border-top: 0px;
+    padding: 10px;
+
+}
+
+.information_exam{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.countdown_exam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* make_exam finish */
+
+.background_result_exam{
+
+    height: 600px;
+    border-radius: 15px;
+    background-size: cover;
+
+}
+
+/* make_exam finish */
+
+
+
+/* make_exam */
+
+
+/* book */
+
+.rating {
+    display: inline-block;
+    font-size: 35px;
+}
+
+.rating input {
+    display: none;
+}
+
+/* .rating input:checked + .star,
+.rating .star:hover ~ .star {
+    color: black !important;
+} */
+
+
+/* book */
+
+.box_detail_book{
+
+display: grid;
+
+grid-template-columns: 1fr 2fr 1fr;
+
+column-gap: 20px;
+
+}
+
+
+/* course */
+
+.filter_course{
+
+    background-color: #f5f5f5;
+    border: 3px solid #007bff;
+
+}
+
+/* course */
+
+
+/* cart */
+
+.box_cart{
+
+}
+
+.item_cart{
+
+    display: grid;
+    grid-template-columns: 2fr 1fr 1.5fr 1fr 0.5fr;
+    background-color: white;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.item_cart div{
+    /* border: 2px solid black; */
+    
+}
+
+.box_cart .card{
+    border: 2px solid #ffc107;
+}
+
+.submit_cart{
+
+    border:  2px solid #ffc107;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.pay_type{
+    
+    border-top: 7px solid #007bff;
+    border-left: 7px solid #007bff;
+    border-right: 7px solid #ffc107;
+    border-bottom: 7px solid #ffc107;
+    border-radius: 15px;
+
+}
+
+.pay_thank{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pay_thank h1{
+    color: cornflowerblue;
+    font-family: cursive;
+    text-shadow: 3px 3px 5px black;
+}
+
+/* form_course */
+
+.box_form_course{
+
+    border-radius: 10px;
+    padding: 15px;
+    border: 10px solid #007bff;
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    column-gap: 20px;
+
+}
+
+/* form_course */
+
+/* qr */
+
+.box_qr{
+
+    padding: 20px;
+    border-top: 10px solid #007bff;
+    border-left: 10px solid #007bff;
+    border-right: 10px solid #ffc107;
+    border-bottom: 10px solid #ffc107;
+    border-radius: 15px;
+
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+
+}
+
+
+.body-qr img{
+
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
+/* qr */
+
+/* cart */
+
+
+/* comment */
+
+.item_comment{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+}
+
+
+/* comment */
+
+
+
+/* footer */
+
+.box_footer{
+    /* display: grid; */
+}
+
+.footer_footer{
+    background-color: black;
+    color: #f5f5f5;
+}
+
+footer{
+    /* position: fixed;
+    width: 100%;
+    bottom: 0; */
+}
+
+
+
+

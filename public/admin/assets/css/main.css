@@ -1,0 +1,42 @@
+
+p{
+    margin: 0;
+}
+
+.container_my{
+    padding: 0 10px;
+    padding-bottom: 10px;
+}
+
+.container_double{
+
+    padding: 0 10px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+
+}
+
+
+.board_th{
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+    text-align: center;
+    padding: 5px;
+}
+
+.board_td{
+    color: black;
+    border: 1px solid #007bff;
+    padding: 5px;
+}
+
+
+/* question_exam */
+
+.item_question{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #007bff;
+}

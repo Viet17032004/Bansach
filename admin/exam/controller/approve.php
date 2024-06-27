@@ -1,0 +1,1 @@
+<?php view('approve', 'admin', 'exam'); ?>
